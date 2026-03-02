@@ -1,0 +1,292 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+} 1 вариант*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+body{
+    width: 1920px;
+}
+
+header{
+height: 800px;
+background-image: url(img/bgc.jpg)
+}
+
+.nav-wrapper{
+display: flex;
+align-items: center;
+height: 60px;
+justify-content: space-around;
+/* border-bottom: 1px solid white; */
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-item{
+    margin-right: 47px;
+    color: white;
+}
+
+.bottom-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+
+.container-up{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.block-item{
+    margin-right: 30px;
+    height: 148px;
+    width: 255px;
+}
+
+.block-item-2{
+       margin-right: 30px;
+    height: 175px;
+    width: 255px; 
+}
+
+.blue{
+    background-color: #2378FC;
+}
+
+.green{
+    background-color: #30BCC9;
+}
+
+.yellow{
+    background-color: #FFC41E;
+}
+
+.red{
+    background-color: #F6404F;
+}
+
+.text{
+   color: white;
+   font-size: 64px;
+   font-weight: 700;
+   line-height: 160%;
+}
+
+.text-bottom{
+    color: white;
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 140%;
+}
+
+.text-bottom-2{
+color: white;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 135%;
+}
+
+.arrow-0{
+    padding-top: 25px;
+}
+
+.block{
+    color: white;
+  /*   width: 175px;
+    height: 54px; пришлось бы 
+    на каждый  писать размер*/
+   font-size: 21px;
+   font-weight: 500;
+   line-height: 130%;
+   letter-spacing: -1%;
+   padding-top: 30px;
+   padding-left: 40px;
+  
+}
+
+.block-2{
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 135%;
+    color: white;
+    /* display: block;
+   width: 72px;
+   height: 19px;  стрелка смещаеться вниз*/
+
+}
+
+
+.arrow{
+/* width: 98px; стрелка не вмещается*/
+    height: 19px; 
+   padding-top: 15px;
+    padding-left: 40px;
+}
+
+.png{
+    width: 16px;
+}
+
+.blue-yellow{
+    height: 1410px;
+    width: 1920px;
+}
+.site-menu{
+height: 426px;
+background-color: #2378FC;
+}
+
+.events{
+    height: 984px;
+    background-color: #FFC41E;
+}
+
+
+ 
+.container-ivents{
+    display: flex;
+      justify-content: space-between;
+       padding-left: 405px;
+       padding-right: 405px;
+    padding-top: 75px;
+} 
+
+.ivents{
+    color: #2E373B;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+
+
+.more-ivents{
+   
+   color: #2E373B;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.site-menu-list{
+    height: 276px;
+    width: 1114px;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding-left: 403px;
+ padding-right: 403px;
+ padding-top: 75px;
+ padding-bottom: 75px;
+}
+
+.side-menu-item-links{
+    color: white;
+   font-size: 16px;
+   font-weight: 400;
+  line-height: 135%;
+}
+
+.side-menu-item-links li{
+    padding-top: 15px;
+}
+.side-menu-item-h{
+    color: white;
+    font-size: 30px;
+   font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.side-link{
+    color: #FFC41E;
+}
+
+.events-list{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 405px;
+    padding-right: 405px;
+    padding-top: 55px;
+}
+
+.events-list h1{
+    color: #2E373B;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 135%;
+    padding-top: 20px;
+}
+
+.events-list h2{
+    color: #F6404F;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 130%;
+    padding-top: 10px;
+}
+
+.events-list h3{
+    color: #2E373B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 135%;
+    padding-top: 10px;
+}
