@@ -186,7 +186,7 @@ color: white;
 }
 
 .blue-yellow{
-    height: 1410px;
+    height: 2059px;
     width: 1920px;
 }
 .site-menu{
@@ -207,6 +207,7 @@ background-color: #2378FC;
        padding-left: 405px;
        padding-right: 405px;
     padding-top: 75px;
+    align-items: center;
 } 
 
 .ivents{
@@ -289,4 +290,43 @@ background-color: #2378FC;
     font-weight: 400;
     line-height: 135%;
     padding-top: 10px;
+}
+
+.container-news{
+    display: flex;
+    height: 649px;
+    background-color: #FAF3E3;
+}
+
+.ad{
+    width: 445px;
+    height: 489px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 75px;
+    padding-left: 405px;
+}
+
+.item{
+    padding-left: 125px;
+    padding-top: 75px;
+}
+
+.item-adds{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-news{
+    display: flex;
+}
+
+.more-news{
+    height: 420px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
