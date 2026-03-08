@@ -402,3 +402,38 @@ footer{
     font-weight: 400;
     margin-top: 20px;
 }
+
+.link-list-img{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    justify-content: space-between;
+    height: 121px;
+}
+
+.link-list-img-soc{
+    padding-top: 30px;
+}
+
+.link-input{
+    border: 0px;
+    height: 40px;
+    width: 195px;
+    margin-top: 25px;
+    padding-left: 20px;
+}
+
+.link-list-input{
+    display: flex;
+    align-items: flex-end;
+}
+
+.input-red{
+    width: 18px;
+    height: 18px;
+    padding-bottom: 10px;
+    padding-left: 11px;
+    padding-right: 12px;
+    padding-top: 14px;
+    background-color: #F6404F;
+}
